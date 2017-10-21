@@ -30,7 +30,7 @@ a:hover {
   padding: 15px;
   position: fixed;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .nav {
   display: flex;
@@ -53,7 +53,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ff9906
 }
 
 header {
