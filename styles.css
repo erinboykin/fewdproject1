@@ -8,10 +8,9 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: #222;
   background: #1a364d;
 }
-
 /* Link Styles */
 
 a {
@@ -19,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #white;
+  color: #000;
 }
 
 /* Section Styles */
@@ -71,8 +70,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 7px solid black;
-  transition: all .8s;
+  border: 6px solid white;
+  transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -82,7 +81,6 @@ header .profile-image:hover {
   color: black;
   padding: 10px;
   border-radius: 5px;
-  border: 7px solid black;
   display: table;
   margin: 10px auto;
 }
@@ -101,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ff9906;
 }
 
 ul.skills {
@@ -150,7 +148,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: 1.0;
+  opacity: .4;
   transition: all .5s;
 }
 a.twitter {
