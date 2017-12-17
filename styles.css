@@ -15,10 +15,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #ffffff;
 }
 a:hover {
-  color: #000;
+  color: #ffffff;
 }
 
 /* Section Styles */
@@ -26,10 +26,12 @@ a:hover {
 .main-nav {
   width: 100%;
   background: #1a364d;
-  min-height: 30px;
-  padding: 10px;
+  min-height: 20px;
+  padding: 30px;
   position: fixed;
-  text-align: center;
+  text-align: bottom;
+  color: white;
+  font-size: 20px;
 }
 .nav {
   display: flex;
@@ -44,13 +46,16 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-size: 30px;
 }
 .nav li {
-  padding: 5px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: white
 }
@@ -60,15 +65,15 @@ header {
   background: url('images/headerbackground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 header {
-  line-height: 1.5;
+  line-height: 2;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 6px solid white;
   transition: all .5s;
