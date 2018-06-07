@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #1a364d;
+  background: #050402;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #1a364d;
+  background: #050402;
   min-height: 20px;
   padding: 30px;
   position: fixed;
@@ -49,7 +49,7 @@ a:hover {
     font-size: 30px;
 }
 .nav li {
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
 
 .nav a {
@@ -62,7 +62,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/headerbackground.jpg') no-repeat top center ;
+  background: url('images/headerimage.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 70px;
@@ -105,7 +105,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff9906;
+  border-color: #6da6b0;
 }
 
 ul.skills {
