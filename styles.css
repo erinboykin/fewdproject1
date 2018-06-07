@@ -94,6 +94,7 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -104,8 +105,13 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #6da6b0;
+}
+
+.card:link {
+  color: #black;
 }
 
 ul.skills {
