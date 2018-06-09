@@ -111,7 +111,7 @@ header .profile-image:hover {
 }
 
 .card:link {
-  color: #black;
+  color: #000;
 }
 
 ul.skills {
@@ -158,9 +158,9 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  width: 75px;
+  height: 75px;
+  background-size: 75px 75px;
   opacity: .8;
   transition: all .5s;
 }
